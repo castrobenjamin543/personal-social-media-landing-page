@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100vw;
+}
+
+.nav__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: 40%;
+}
+
+.nav__logo-text{
+    font-size: 1.5em;
+}
+
+.nav__items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: inherit;
+    margin: 0;
+}
+
+.nav__item {
+    list-style: none;
+}
+
+.nav__item-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+}
+
+.nav__item-link:hover {
+    background-color: white;
+    color: black;
+    padding: 0.3em;
+}
+
+.biography {
+    display: flex;
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+}
+
+.biography__profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+.biography__profile-copy {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.profile-copy {
+    font-size: 1.2em;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    background-color: indianred;
+}
